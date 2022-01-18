@@ -4,6 +4,9 @@ import PackageDescription
 
 let package = Package(
 	name: "ADNavigationBarExtension",
+	platforms: [
+		.iOS(.v11)
+	],
 	products: [
 		.library(
 			name: "ADNavigationBarExtension",
