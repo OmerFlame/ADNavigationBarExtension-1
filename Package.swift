@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["ADNavigationBarExtension"]),
 	],
 	dependencies: [
-		.package(url: "https://github.com/faberNovel/ADUtils.git", from: "v11.2.0")
+		.package(url: "https://github.com/faberNovel/ADUtils.git", from: "11.2.0")
 	],
 	targets: [
 		.target(
